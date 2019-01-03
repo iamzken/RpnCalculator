@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6dfd140-1c76-4add-9c72-2f8b4c297c14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_mockito_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RpnCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/RpnCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/RpnCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/history/record/OperationRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/history/record/OperationRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/storage/DefaultStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/storage/DefaultStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/storage/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/UserEnter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/UserEnter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/UserEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/UserEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/enums/OperatorsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/enums/OperatorsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/factory/DefaultUserEnterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/factory/DefaultUserEnterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/factory/OperatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/factory/OperatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/model/DigitalUserEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/model/DigitalUserEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/BiOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/BiOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Clear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/SquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/operator/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Undo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/RpnCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/RpnCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/fixture/RpnCalculatorTestFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/fixture/RpnCalculatorTestFixture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/history/record/OperationRecordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/history/record/OperationRecordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/storage/DefaultStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/storage/DefaultStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/factory/DefaultUserEnterFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/factory/DefaultUserEnterFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/factory/OperatorFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/factory/OperatorFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/model/DigitalUserEntryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/model/DigitalUserEntryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/model/OperatorsEnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/model/OperatorsEnumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/AdditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/AdditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/ClearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/ClearTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/DivisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/DivisionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/MultiplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/MultiplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/SquareRootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/SquareRootTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/SubtractionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/au/com/anz/rpncalculator/userenter/operator/UndoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/UndoTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-824342619">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="gitignore" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="176" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="176" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1627" />
+          <entry key="md" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1627" />
+          <entry key="Markdown" value="16" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/RpnCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="757">
+              <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#1945#1946#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RpnCalculator.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.err</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>System.out</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../spring-fu" value="PREVIEW" />
+        <entry key="$USER_HOME$/spring-framework" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/au/com/anz/rpncalculator/userenter/enums/OperatorsEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/UserEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/BiOperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/factory/DefaultUserEnterFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/history/record/OperationRecordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/storage/DefaultStorageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/factory/DefaultUserEnterFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/factory/OperatorFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/model/DigitalUserEntryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/model/OperatorsEnumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/AdditionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/ClearTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/DivisionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/MultiplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/SquareRootTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/SubtractionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/UndoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/RpnCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/model/DigitalUserEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Addition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Clear.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Division.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Multiplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/SquareRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Subtraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Undo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/storage/DefaultStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/RpnCalculator.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2048" />
+    <option name="height" value="1073" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RpnCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RpnCalculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546501702894" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RpnCalculator">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpnCalculator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.conan.rpncalculator.RpnCalculator" />
+      <module name="RpnCalculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conan.rpncalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultStorageTest.whenABigDecimalProvidedThen2DigitsShouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RpnCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conan.rpncalculator.storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conan.rpncalculator.storage" />
+      <option name="MAIN_CLASS_NAME" value="com.conan.rpncalculator.storage.DefaultStorageTest" />
+      <option name="METHOD_NAME" value="whenABigDecimalProvidedThen2DigitsShouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredCtrlCThenExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RpnCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conan.rpncalculator.userenter.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conan.rpncalculator.userenter.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.conan.rpncalculator.userenter.factory.DefaultUserEnterFactoryTest" />
+      <option name="METHOD_NAME" value="whenUserEnteredCtrlCThenExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredInvalidStringThenAnEmptyOperatorOptionalObjectShouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RpnCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conan.rpncalculator.userenter.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conan.rpncalculator.userenter.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.conan.rpncalculator.userenter.factory.DefaultUserEnterFactoryTest" />
+      <option name="METHOD_NAME" value="whenUserEnteredInvalidStringThenAnEmptyOperatorOptionalObjectShouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredValidStringThenAnOperatorOptionalObjectShouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RpnCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conan.rpncalculator.userenter.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conan.rpncalculator.userenter.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.conan.rpncalculator.userenter.factory.DefaultUserEnterFactoryTest" />
+      <option name="METHOD_NAME" value="whenUserEnteredValidStringThenAnOperatorOptionalObjectShouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpnCalculatorTest.whenAdditionUserEntryProvidedThenPlusSignShouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RpnCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.conan.rpncalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.conan.rpncalculator" />
+      <option name="MAIN_CLASS_NAME" value="com.conan.rpncalculator.RpnCalculatorTest" />
+      <option name="METHOD_NAME" value="whenAdditionUserEntryProvidedThenPlusSignShouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remote-RpnCalculator" type="Remote" factoryName="Remote">
+      <module name="RpnCalculator" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RpnCalculator" />
+      <item itemvalue="Remote.remote-RpnCalculator" />
+      <item itemvalue="JUnit.DefaultUserEnterFactoryTest.whenUserEnteredValidStringThenAnOperatorOptionalObjectShouldReturn" />
+      <item itemvalue="JUnit.DefaultUserEnterFactoryTest.whenUserEnteredInvalidStringThenAnEmptyOperatorOptionalObjectShouldReturn" />
+      <item itemvalue="JUnit.DefaultUserEnterFactoryTest.whenUserEnteredCtrlCThenExist" />
+      <item itemvalue="JUnit.DefaultStorageTest.whenABigDecimalProvidedThen2DigitsShouldReturn" />
+      <item itemvalue="JUnit.RpnCalculatorTest.whenAdditionUserEntryProvidedThenPlusSignShouldReturn" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RpnCalculatorTest.whenAdditionUserEntryProvidedThenPlusSignShouldReturn" />
+        <item itemvalue="JUnit.DefaultStorageTest.whenABigDecimalProvidedThen2DigitsShouldReturn" />
+        <item itemvalue="JUnit.DefaultUserEnterFactoryTest.whenUserEnteredCtrlCThenExist" />
+        <item itemvalue="JUnit.DefaultUserEnterFactoryTest.whenUserEnteredInvalidStringThenAnEmptyOperatorOptionalObjectShouldReturn" />
+        <item itemvalue="JUnit.DefaultUserEnterFactoryTest.whenUserEnteredValidStringThenAnOperatorOptionalObjectShouldReturn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6dfd140-1c76-4add-9c72-2f8b4c297c14" name="Default Changelist" comment="" />
+      <created>1546013132097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546013132097</updated>
+      <workItem from="1546013135721" duration="5107000" />
+      <workItem from="1546050620899" duration="8223000" />
+      <workItem from="1546480060414" duration="7244000" />
+      <workItem from="1546488927711" duration="4564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DefaultUserEnterFactoryTest_whenUserEnteredValidNegativeStringThenAnDigitalUserEntryOptionalObjectShouldReturn - 2018.12.30 at 10h 10m 49s.xml">
+      <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredValidNegativeStringThenAnDigitalUserEntryOptionalObjectShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultUserEnterFactoryTest_whenUserEnteredAnAdditionStringThenAnDigitalUserEntryOptionalObjectShouldReturn - 2018.12.30 at 10h 10m 59s.xml">
+      <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredAnAdditionStringThenAnDigitalUserEntryOptionalObjectShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultUserEnterFactoryTest_whenUserEnteredValidStringThenAnDigitalOptionalObjectShouldReturn - 2018.12.30 at 10h 11m 51s.xml">
+      <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredValidStringThenAnDigitalOptionalObjectShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultUserEnterFactoryTest_whenUserEnteredValidStringThenAnOperatorOptionalObjectShouldReturn - 2018.12.30 at 10h 18m 46s.xml">
+      <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredValidStringThenAnOperatorOptionalObjectShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultUserEnterFactoryTest_whenUserEnteredInvalidStringThenAnEmptyOperatorOptionalObjectShouldReturn - 2018.12.30 at 10h 18m 54s.xml">
+      <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredInvalidStringThenAnEmptyOperatorOptionalObjectShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultUserEnterFactoryTest_whenUserEnteredCtrlCThenExist - 2018.12.30 at 10h 29m 45s.xml">
+      <configuration name="DefaultUserEnterFactoryTest.whenUserEnteredCtrlCThenExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultStorageTest_whenABigDecimalProvidedThen2DigitsShouldReturn - 2018.12.30 at 10h 36m 37s.xml">
+      <configuration name="DefaultStorageTest.whenABigDecimalProvidedThen2DigitsShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultStorageTest_whenABigDecimalProvidedThen2DigitsShouldReturn - 2018.12.30 at 10h 36m 50s.xml">
+      <configuration name="DefaultStorageTest.whenABigDecimalProvidedThen2DigitsShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RpnCalculatorTest_whenAdditionUserEntryProvidedThenPlusSignShouldReturn - 2019.01.03 at 10h 41m 33s.xml">
+      <configuration name="RpnCalculatorTest.whenAdditionUserEntryProvidedThenPlusSignShouldReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RpnCalculatorTest_whenAdditionUserEntryProvidedThenPlusSignShouldReturn - 2019.01.03 at 10h 44m 25s.xml">
+      <configuration name="RpnCalculatorTest.whenAdditionUserEntryProvidedThenPlusSignShouldReturn" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25138000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2048" height="1073" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2572283" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49651048" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.67148554" weight="0.39959225" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4995015" weight="0.32925585" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4995015" weight="0.32925585" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995015" weight="0.32925585" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50348955" side_tool="true" visible="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4995015" weight="0.32925585" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/RpnCalculator.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="OperatorsEnum.values()" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="userEntries.subList(8, ((ArrayList) userEntries).size)." language="JAVA" custom="java.util.ArrayList" />
+        <watch expression="userEntries.get(8)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>userEntries.get(8)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userEntries.subList(8, ((ArrayList) userEntries).size).</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userEntries.subList(8, ((ArrayList) userEntries).size).toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userEntries.subList(8, ((ArrayList) userEntries).size)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.ArrayList</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userEntries.subList(8)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CTRL_C</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CTRL_C.equals(&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CTRL_C.equals(&quot; &quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>\u0003</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>OperatorsEnum.values()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="369" selection-start-line="369" selection-end-line="369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/loader/ClassLoaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/loader/BuiltinClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar!/org/mockito/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-api-mockito/1.6.2/powermock-api-mockito-1.6.2.jar!/org/powermock/api/mockito/PowerMockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/EmptyStackException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/fixture/RpnCalculatorTestFixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/history/record/OperationRecordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/storage/DefaultStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/factory/DefaultUserEnterFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/factory/OperatorFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/model/DigitalUserEntryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/model/OperatorsEnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/AdditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/ClearTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/DivisionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/MultiplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/SquareRootTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/SubtractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/userenter/operator/UndoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/history/record/OperationRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/enums/OperatorsEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/factory/DefaultUserEnterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Clear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/SquareRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Subtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Undo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/model/DigitalUserEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/BiOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/operator/Multiplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/UserEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/UserEnter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/userenter/factory/OperatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/conan/rpncalculator/RpnCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/storage/DefaultStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1956">
+          <caret line="528" column="26" selection-start-line="528" selection-start-column="26" selection-end-line="528" selection-end-column="26" />
+          <folding>
+            <element signature="e#24380#24381#0" expanded="true" />
+            <element signature="e#24405#24406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conan/rpncalculator/RpnCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RpnCalculator.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RpnCalculator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
